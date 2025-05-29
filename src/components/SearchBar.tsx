@@ -10,7 +10,7 @@ const SearchBar = ({ value, onChangeText }: Props) => {
     <div className="relative">
       <input
         type="text"
-        placeholder="神社仏閣名で検索"
+        placeholder="名前で検索"
         value={value}
         onChange={(e) => onChangeText(e.target.value)}
         className="h-8 w-full rounded-md border border-pine bg-white px-3 py-2 pr-10 text-sm shadow-sm md:w-80"
